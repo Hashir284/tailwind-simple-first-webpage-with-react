@@ -4,7 +4,7 @@ import Section2 from './components/section2/Section2'
 function App() {
   return (
     <div className="App">
-       <div className="container m-auto p-14">
+       <div className="container m-auto px-10 p-12">
           <Section1 />
           <Section2 />
          </div>

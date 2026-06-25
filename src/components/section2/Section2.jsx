@@ -15,16 +15,16 @@ const Section2 = () => {
             btn: 'Undeserved'
         },
         {
-            img: 'https://projects-lists-nu.vercel.app/image.png',
+            img: 'cardimage3.jfif',
             paragraph: 'Customers from near-prime and sub-prime segments with no access to bank credit',
             btn: 'Undebanked'
         }
     ]
 
   return (
-    <div className='flex justify-between'>
+    <div className='flex justify-between gap-11 flex-col xl:flex-row'>
       <Left />
-      <div className='flex gap-5'>
+      <div className='flex gap-5 lg:flex-nowrap gap-y-9 flex-wrap  justify-center'>
         {
             card.map((e, i)=>{
                 return <Right card={e} i={i} key={i}/>

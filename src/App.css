@@ -1,6 +1,37 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-color: #181a1b;
+    background-color: #131516;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cardImg{
     filter: brightness(25%);
+}
+#cardImg{
+    width: 310px;
+    height: 100%;
+     /* w-80 h-96  xl:h-full */
+}
+
+@media (max-width:1300px) {
+    #cardImg{
+        width: 320px;
+        height: 534px;
+    }
+}
+@media (max-width:768px) {
+    #cardImg{
+        width: 380px;
+        height: 550px;
+    }
+}
+@media (max-width:480px) {
+    #cardImg{
+        width: 300px;
+        height: 500px;
+    }
 }
